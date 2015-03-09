@@ -1,10 +1,11 @@
 {
   "name": "directions-transition-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "TransitionGroup.js",
+  "main": "dist/TransitionGroup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jsx src dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/evindor/directions-transition-group",
   "dependencies": {
     "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "react-tools": "^0.12.2"
   }
 }
